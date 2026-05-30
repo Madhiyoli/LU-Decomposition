@@ -31,10 +31,10 @@ print(L)
 print(U)
 ```
 (ii) To find the LU Decomposition of a matrix
-'''Program to solve a matrix using LU decomposition.
+```Program to solve a matrix using LU decomposition.
 Developed by: Madhiyoli.C
 RegisterNumber: 212225230157
-'''
+
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1" 
 
@@ -46,7 +46,7 @@ b = np.array(eval(input()))
 lu,pivot=lu_factor(a)
 x=lu_solve((lu,pivot),b)
 print(x)
-
+```
 ## Output:
 <img width="1250" height="506" alt="Screenshot 2026-05-30 230925" src="https://github.com/user-attachments/assets/e94280c9-28b9-4cf5-856c-0de6aac39512" />
 
